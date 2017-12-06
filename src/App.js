@@ -1,10 +1,7 @@
 import React, { PureComponent } from 'react'
-import Debug from 'debug'
 import Users from './components/Users'
 import logo from './logo.svg'
 import './App.css'
-
-const log = Debug('src:App')
 
 export default class App extends PureComponent {
 

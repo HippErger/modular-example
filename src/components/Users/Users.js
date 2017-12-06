@@ -1,7 +1,12 @@
+// @flow
 import React, { PureComponent } from 'react'
+import type { ReduxProps } from './'
 import './Users.style.css'
 
-export default class Users extends PureComponent {
+export type Props = ReduxProps & {
+}
+
+export default class Users extends PureComponent<Props> {
 
   componentWillMount () {
 
