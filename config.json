@@ -1,0 +1,6 @@
+{
+  "database_url": "http://google.com",
+  "login_url": "http://auth.com",
+  "app-name": "my-app",
+  "provider": "AWS"
+}
